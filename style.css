@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Calculator{
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(154, 157, 157, 0.858);
+  }
+  .equal {
+    background-color: orangered;
+    border-radius: 5px;
+  }
+  .Operator {
+    background-color: rgb(192, 173, 173);
+    border-radius: 5px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  #display {
+    background-color: white;
+    padding: 20px;
+    text-align: right;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .grid button{
+    height: 25px;
+    width: 45px;
+    border-radius: 5px;
+  }
